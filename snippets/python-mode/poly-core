@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Polylith Python component core
+# key: poly-core
+# --
+"""${1:Module description}."""
+from __future__ import annotations
+
+
+def ${2:function_name}(${3:args}) -> ${4:None}:
+    """${5:Docstring}."""
+    ${6:pass}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Polylith Python component __init__
+# key: poly-init
+# --
+from ${1:namespace}.${2:module}.core import ${3:function_name}
+
+__all__ = ["${3:function_name}"]

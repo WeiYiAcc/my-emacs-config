@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: ariadne-fact upsert MCP call
+# key: fact-upsert
+# --
+mcp({
+  tool: "ariadne_fact_upsert_fact",
+  args: JSON.stringify({
+    title: "${1:Title}",
+    name: "${2:slug-name}",
+    description: "${3:Short description}",
+    tags: [${4:"reference"}],
+    category: "${5:reference}",
+    body: [
+      { title: "${6:Body content}" }
+    ]
+  })
+})

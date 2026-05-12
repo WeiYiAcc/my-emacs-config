@@ -1,0 +1,10 @@
+elpa/
+eln-cache/
+*.elc
+auto-save-list/
+tramp
+.#*
+\#*\#
+custom.el
+cider-history*
+recentf

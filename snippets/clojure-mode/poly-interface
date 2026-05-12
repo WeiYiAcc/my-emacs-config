@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Polylith component interface
+# key: poly-iface
+# --
+(ns ${1:namespace}.interface
+  (:require [${1:namespace}.core :as core]))
+
+(defn ${2:function-name}
+  "${3:docstring}"
+  [${4:args}]
+  (core/${2:function-name} ${4:args}))

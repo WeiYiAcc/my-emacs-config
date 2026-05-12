@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Polylith component core
+# key: poly-core
+# --
+(ns ${1:namespace}.core)
+
+(defn ${2:function-name}
+  "${3:docstring}"
+  [${4:args}]
+  ${5:nil})
