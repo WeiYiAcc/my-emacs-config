@@ -115,6 +115,7 @@
 (load "setup-ibuffer.el")
 (load "setup-org.el")
 (load "setup-org-present.el")
+(load "setup-ekg.el")
 
 (provide 'init)
 
